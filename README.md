@@ -1,6 +1,8 @@
 # UISearchController-context-menu-bug
 Demonstration project for a bug with iOS's context menus (UIMenuController) when used in conjunction with UISearchController
 
+*Update: seems to be fixed in iOS 13.0 beta*
+
 ## Summary
 
 If you try to use long-press context menus (aka `UIMenuController`) on `UITableViewCell`s in conjuction with a `UISearchController`, you'll find that the context menu dismisses itself *the first time* you bring it up. Subsequent attempts to show the context menu will succeed.
